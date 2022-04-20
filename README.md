@@ -1,5 +1,8 @@
-mkdir ~/pset1/
-cd ~/pset1/
-~/pset1/$
-mkdir ~/pset1/hello
-cd ~/pset1/hello
+#include <stdio.h>
+#include <cs50.h> // Adicionar a biblioteca do CS50
+
+int main(void) {
+    // get_string é uma função específica da biblioteca do CS50!
+    string nome = get_string("Qual é seu nome? \n");
+    printf("hello,%s \n",nome);
+}
